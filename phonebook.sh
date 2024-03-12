@@ -4,7 +4,6 @@ file=phonebook.txt
 touch $file
 
 new_user(){
-	
 	echo $2 $3  >> phonebook.txt
 	echo 'Contact added.'
 }
